@@ -1,6 +1,6 @@
 Olá, Bem vindo ao meu projeto de Login/Sign-up.
 
-![image][(https://photos.app.goo.gl/WJY6SievPaQ28uCp7)
+![image](https://photos.app.goo.gl/WJY6SievPaQ28uCp7)
 
 ## Ferramentas utilizadas:
 
