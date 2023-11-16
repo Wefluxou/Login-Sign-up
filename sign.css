@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #F2F2F2 0%, #BFAB9F 50%, #D9D5D2 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-login{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login{
+    width: 65%;
+    padding: 30px 35px;
+    margin: 10px;
+    background-image: linear-gradient(-225deg,  0%, #D9D5D2  50%, #BFAB9F 10%);
+    margin: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 800;
+    box-shadow: 3px 10px 20px #787878;
+}
+
+.card-login > h1{
+    cursor:default;
+    margin: 10px;
+    color: #262624;
+    text-shadow: 2px 2px 5px white;
+    
+    /* border-bottom: 1px solid wheat; */
+}
+
+
+.textfield{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfield > input{
+    color:black ;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid wheat;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.esqueceu-senha{
+    color:black ;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.textfield-senha{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 200px ;
+    outline: none;
+}
+.textfield-senha > .opcao1{
+    text-decoration: none;
+    color:#735443;
+}
+.textfield-senha > .opcao2{
+    text-decoration: none;
+    color:#808080;
+}
+
+.textfield-senha-sign-up > .opcao3{
+    text-decoration: none;
+    color:#808080;
+}
+
+.textfield ::placeholder{
+    color:#735443;
+}
+
+.btn{
+    width: 50%;
+    border: 0;
+    color: white;
+    background-color: #735443;
+    border-radius: 13px;
+    padding: 7px;
+    margin: 10px;
+    box-shadow: 6px 6px 8px white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    height: 40%;
+    width: 55%;
+    border: 0;
+    color: white;
+    background-color: #735443;
+    border-radius: 13px;
+    padding: 9px;
+    margin: 10px;
+    box-shadow: 6px 6px 7px white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.textfield-senha > .opcao1:hover{
+    color: #808080;
+
+}
+
+.textfield-senha > .opcao2:hover{
+    color: #735443;
+
+}
