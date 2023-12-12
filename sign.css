@@ -28,7 +28,8 @@ body *{
     width: 65%;
     padding: 30px 35px;
     margin: 10px;
-    background-image: linear-gradient(-225deg,  0%, #D9D5D2  50%, #BFAB9F 10%);
+    background: transparent;
+    backdrop-filter: blur(20px);
     margin: 10px;
     border-radius: 12px;
     display: flex;
@@ -95,7 +96,7 @@ body *{
 
 .textfield-senha-sign-up > .opcao3{
     text-decoration: none;
-    color:#808080;
+    color:#735443;
 }
 
 .textfield ::placeholder{
@@ -113,6 +114,61 @@ body *{
     box-shadow: 6px 6px 8px white;
     cursor: pointer;
 }
+
+.redes{
+    padding: 30px;
+    text-decoration: none;
+}
+
+.redes2{
+    padding: 5px;
+    color: #735443;
+    width: 65vh;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.hvredes{
+    padding: 5px;
+    color: #735443;
+    width: 65vh;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.espaco{
+    padding-bottom: 10px;
+}
+
+.redes >h3 {
+    color: #735443;
+    display: flex;
+    justify-content: center;
+    padding-bottom:12px ;
+}
+
+.hvredes:hover{
+    text-shadow: 2px 2px 5px white;
+    background: #BFAB9F;
+    color: gray;
+}
+
+.redes2:hover{
+    text-shadow: 2px 2px 5px white;
+    background: #BFAB9F;
+    color: gray;
+}
+
 
 .btn:hover{
     height: 40%;
@@ -136,5 +192,87 @@ body *{
 
 .textfield-senha > .opcao2:hover{
     color: #735443;
+
+}
+
+@media (max-width:1320px){
+    .hvredes{
+        width: 42vh;
+    }
+
+    .redes2{
+        width: 42vh;
+    }
+
+    .textfield-senha{
+        gap:170px;
+    }
+}
+
+
+
+@media (max-width:944px){
+    .hvredes{
+        width: 35vh;
+    }
+
+    .redes2{
+        width: 35vh;
+    }
+
+    .textfield-senha{
+        gap:65px;
+    }
+}
+
+@media (max-width:600px){
+    .main-login{
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .card-login{
+        width: 40vh;
+
+    }
+
+    .hvredes{
+        width: 30vh;
+    }
+
+    .redes2{
+        width: 30vh;
+    }
+
+    .textfield-senha{
+        gap:65px;
+    }
+
+
+}
+
+@media (max-width:400px){
+    .main-login{
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .card-login{
+        width: 40vh;
+
+    }
+
+    .hvredes{
+        width: 30vh;
+    }
+
+    .redes2{
+        width: 30vh;
+    }
+
+    .textfield-senha{
+        gap:65px;
+    }
+
 
 }
