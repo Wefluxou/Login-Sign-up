@@ -225,6 +225,30 @@ body *{
     }
 }
 
+@media (max-width:724px){
+    .main-login{
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .card-login{
+        width: 40vh;
+
+    }
+
+    .hvredes{
+        width: 30vh;
+    }
+
+    .redes2{
+        width: 30vh;
+    }
+
+    .textfield-senha{
+        gap:65px;
+    }
+}
+
 @media (max-width:600px){
     .main-login{
         width: 100vw;
